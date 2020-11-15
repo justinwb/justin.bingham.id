@@ -1,0 +1,12 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix schema: <http://schema.org/>.
+
+:me
+    a schem:Person, foaf:Person;
+    vcard:fn "Justin Bingham";
+    foaf:name "Justin Bingham";
+    foaf:mbox <mailto:justin.bingham@janeirodigital.com>;
+    foaf:img </profile/me.jpg>;
