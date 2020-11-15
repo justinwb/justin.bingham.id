@@ -22,6 +22,9 @@ jobs:
     - name: Copy HTML
       run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.html' --content-type 'text/html'
 
+    - name: Copy Turtle
+      run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.ttl' --content-type 'text/turtle'
+
     - name: Copy SVG
       run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.svg' --content-type 'image/svg+xml'
 
