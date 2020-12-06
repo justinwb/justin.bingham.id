@@ -9,4 +9,4 @@
     vcard:fn "Justin Bingham";
     foaf:name "Justin Bingham";
     foaf:mbox <mailto:justin.bingham@janeirodigital.com>;
-    foaf:img </profile/me.jpg>;
+    foaf:img </profile/me.jpg> .
