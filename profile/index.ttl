@@ -5,7 +5,7 @@
 @prefix schema: <http://schema.org/>.
 
 :me
-    a schem:Person, foaf:Person;
+    a schema:Person, foaf:Person;
     vcard:fn "Justin Bingham";
     foaf:name "Justin Bingham";
     foaf:mbox <mailto:justin.bingham@janeirodigital.com>;
