@@ -10,26 +10,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@master
-
+      uses: actions/checkout@v2
     - name: Configure AWS
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.DEPLOY_AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.DEPLOY_AWS_SECRET_ACCESS_KEY }}
         aws-region: 'us-east-2'
-
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
+    # Build the static jekyll site
+    - name: Build site
+     run: bundle exec jekyll build
+     env:
+       JEKYLL_ENV: production
+    # Copy the site assets, ensuring the proper content types are attributed to each type
     - name: Copy HTML
-      run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.html' --content-type 'text/html'
-
+      run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.html' --content-type 'text/html'
+    - name: Copy CSS
+      run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.css' --content-type 'text/css'
     - name: Copy Turtle
-      run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.ttl' --content-type 'text/turtle'
-
+      run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.ttl' --content-type 'text/turtle'
     - name: Copy SVG
-      run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.svg' --content-type 'image/svg+xml'
-
+      run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.svg' --content-type 'image/svg+xml'
     - name: Copy JPEG
-      run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.jpg' --content-type 'image/jpeg'
-
+      run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.jpg' --content-type 'image/jpeg'
     - name: Copy PNG
-      run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.png' --content-type 'image/png'
+      run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.png' --content-type 'image/png'
+    # Invalidates existing cloudfront cache to reflect changes immediately
+    - name: Invalid Cloudfront Cache
+      run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DEPLOY_AWS_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
