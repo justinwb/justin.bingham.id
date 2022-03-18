@@ -3,7 +3,7 @@ name: Deploy site
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
@@ -30,6 +30,6 @@ jobs:
 
     - name: Copy JPEG
       run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.jpg' --content-type 'image/jpeg'
-      
+
     - name: Copy PNG
       run: aws s3 sync . s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.png' --content-type 'image/png'
