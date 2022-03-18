@@ -2,11 +2,13 @@ name: Deploy site
 
 on:
   push:
-    branches:
-    - main
+    branches: [ main ]
+
+  # Add ability to trigger manually from the actions tab
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -23,9 +25,9 @@ jobs:
         bundler-cache: true
     # Build the static jekyll site
     - name: Build site
-     run: bundle exec jekyll build
-     env:
-       JEKYLL_ENV: production
+      run: bundle exec jekyll build
+      env:
+        JEKYLL_ENV: production
     # Copy the site assets, ensuring the proper content types are attributed to each type
     - name: Copy HTML
       run: aws s3 sync ./_site/ s3://${{ secrets.DEPLOY_AWS_S3_BUCKET }}/ --no-progress --acl public-read --follow-symlinks --delete --exclude '*' --include '*.html' --content-type 'text/html'
