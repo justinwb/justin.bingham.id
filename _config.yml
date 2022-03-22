@@ -28,8 +28,31 @@ url: "https://justin.bingham.id"
 twitter_username: justinwb
 github_username:  justinwb
 
+markdown: kramdown
+footer: yes
+footer_url: "mailto:justin@bingham.id"
+footer_text: "Copyright 2022 Justin Bingham"
+
+favicon_location: assets/images/favicon-16x16.png
+shortcut_location: assets/images/favicon-32x32.png
+profile_picture: assets/images/jwb.jpg
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+nav:
+  - name: "About"
+    link: "/"
+  - name: "Work"
+    link: "/work-history"
+  - name: "Decentralized"
+    link: "/decentralized"
+  - name: "Contact"
+    link: "/contact"
+
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
