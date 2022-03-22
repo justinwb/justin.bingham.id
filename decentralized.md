@@ -19,8 +19,9 @@ service. Ideally we could "sign-in once" across all applications and services th
 we engage with, and do so without having to rely on a centralized 
 service like Google or Facebook (e.g. Login with Google, Login with Facebook).
 
-The combination of decentralized identifiers like [DIDs](https://www.w3.org/TR/did-core/)
-and compatible authentication protocols make this possible, but this area is
+The combination of decentralized identifiers like [DIDs](https://www.w3.org/TR/did-core/),
+and/or private material in a digital wallet, with  
+compatible authentication protocols make this possible, but this area is
 emerging and in flux.
 
 I've contributed to the [Solid-OIDC Protocol](https://solid.github.io/solid-oidc/), 
@@ -31,7 +32,11 @@ that are commonplace in decentralized scenarios via
 [Demonstration of Proof of Possession (DPoP)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-dpop). 
 I developed a [Solid-OIDC Java Library](https://github.com/janeirodigital/sai-java) for client authentication, and
 have contributed to efforts to add decentralized authentication (DPoP, DID, etc.) 
-to [Keycloak](https://keycloak.org).
+to [Keycloak](https://keycloak.org). 
+
+New extensions like [SIOP2](https://openid.net/specs/openid-connect-self-issued-v2-1_0.html)
+and protocols like [SIWE](https://eips.ethereum.org/EIPS/eip-4361) are
+exciting.
 
 ### Decentralized Data Storage
 
