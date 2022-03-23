@@ -7,7 +7,7 @@ layout: default
 <img class="profile-picture" src="assets/images/jwb.png">
 
 I've spent the better part of this millenium [starting and running 
-companies](#work-history), while architecting and building some interesting tech 
+companies](work-history), while architecting and building some interesting tech 
 along the way. I've had a bit of success,
 a bit of luck, and a lot of fun with a bunch of good people.
 
