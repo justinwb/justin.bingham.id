@@ -20,9 +20,8 @@ we engage with, and do so without having to rely on a centralized
 service like Google or Facebook (e.g. Login with Google, Login with Facebook).
 
 The combination of decentralized identifiers like [DIDs](https://www.w3.org/TR/did-core/),
-and/or private material in a digital wallet, with  
-compatible authentication protocols make this possible, but this area is
-emerging and in flux.
+and/or private material in a digital wallet, with compatible authentication protocols 
+make this possible, but this area is emerging and in flux.
 
 I've contributed to the [Solid-OIDC Protocol](https://solid.github.io/solid-oidc/), 
 which extends the widely adopted [OAuth2](https://www.rfc-editor.org/rfc/rfc6749) and 
