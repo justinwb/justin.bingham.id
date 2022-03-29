@@ -29,7 +29,7 @@ which extends the widely adopted [OAuth2](https://www.rfc-editor.org/rfc/rfc6749
 for decentralized use cases, plugging well-known security issues (e.g. token replay)
 that are commonplace in decentralized scenarios via 
 [Demonstration of Proof of Possession (DPoP)](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-dpop). 
-I developed a [Solid-OIDC Java Library](https://github.com/janeirodigital/sai-java) for client authentication, and
+I developed a [Solid-OIDC Java Library](https://github.com/janeirodigital/sai-authentication-java) for client authentication, and
 have contributed to efforts to add decentralized authentication (DPoP, DID, etc.) 
 to [Keycloak](https://keycloak.org). 
 
