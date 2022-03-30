@@ -7,7 +7,7 @@
 <>
   a schema:Person, foaf:Person;
   vcard:fn "Justin Bingham";
-  foaf:name "Justin Bingham"
+  foaf:name "Justin Bingham" ;
   foaf:mbox <mailto:justin@bingham.id>,
             <mailto:justin.bingham@janeirodigital.com> ;
   foaf:img </profile/me.jpg> .
