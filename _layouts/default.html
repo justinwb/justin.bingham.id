@@ -78,6 +78,8 @@
         <hr>
         {% if page.is_contact == true %}
             <div class="container content contact">
+        {% elsif page.is_work == true %}
+            <div class="container content work">
         {% else %}
             <div class="container content">
         {% endif %}
