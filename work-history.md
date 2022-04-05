@@ -14,41 +14,7 @@ a [decentralized software startup](#work-jd-decentralized) (albeit under
 the same brand) that we'd incubated since 2018.
 
 Wearing all kinds of hats over the years has given me a diverse skillset 
-and a whole lot of perspective. 
-
-* I've been a developer churning out code to hit critical product deadlines
-  in just about every major language and operating environment.
-
-* I've led teams and architected massive systems across a range of industries,
-  from financial trading systems managing billions of dollars, to a monitoring
-  and diagnostic system ensuring the safe generation and distribution of nuclear, 
-  wind, natural gas, and clean coal for the largest independent generator of 
-  energy in the United States.
-
-* I've worked the phones for hours on end in [customer support](#work-shorenet).
-
-* I've been the technical ringer for sales teams, marrying business needs to
-  technical solutions on the fly, turning leads into opportunities, and providing
-  the concrete guidance and strategy needed to move deals across the line
-  with some of the biggest and most innovative companies in the world.
-
-* I've authored, edited, and implemented [open standards](decentralized) for
-  decentralized Web3 ecosystems.
-
-* I [led a research team](#work-intrusic) of PhDs, cryptographers, astrophysicists, and 
-  reformed hackers, and came up with novel ways to detect covert channels
-  in encrypted communication streams.
-
-* I've modified opens source kernels to [optimize data processing](#work-intrusic).
-
-* I've seen good ideas and great technologies fail because the market wasn't ready 
-  for them, because timing is everything.
-  
-* I've [raised](#work-intrusic) millions of dollars 
-  from top-tier venture capital firms, and I've grown companies [organically](#work-jd) 
-  that generated millions of dollars in annual revenue from nothing. 
-
-I've learned from
+and a whole lot of perspective. I've learned from
 enough of my failures to appreciate my successes, and that my best skill
 is being able to work backwards from real-world problems to
 solutions that move the needle for a business, industry, or community.
