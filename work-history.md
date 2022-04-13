@@ -5,7 +5,7 @@ is_work: true
 
 ## Work History
 
-I started my career right out of high-school with a [focus on network security](#work-intrusic), 
+I started my career right out of high school with a [focus on network security](#work-intrusic), 
 subsequently inventing one of the first systems to detect sophisticated covert channels over a network. 
 After that, I co-founded a [professional-services firm](#work-jd) focused on
 delivering mission-critical enterprise software, which grew
@@ -13,10 +13,10 @@ organically for over a decade up to a successful exit. We subsequently spun out
 a [decentralized software startup](#work-jd-decentralized) (albeit under
 the same brand) that we'd incubated since 2018.
 
-Wearing all kinds of hats over the years has given me a diverse skillset 
+Wearing all kinds of hats over the years has given me a diverse skill set 
 and a whole lot of perspective. I've learned from
 enough of my failures to appreciate my successes, and that my best skill
-is being able to work backwards from real-world problems to
+is being able to work backward from real-world problems to
 solutions that move the needle for a business, industry, or community.
    
 ----
@@ -33,7 +33,10 @@ solutions that move the needle for a business, industry, or community.
 
 **2018 - Present**
 
-Our revolutionary [XFORM](https://www.janeirodigital.com/xform/) platform seamlessly integrates decentralized 
+After identifying the need for new decentralized integration patterns to
+connect decentralized and centralized ecosystems, I conceived and architected
+[XFORM](https://www.janeirodigital.com/xform/). XFORM is a software platform 
+that seamlessly integrates decentralized 
 ecosystems with the rest of the world (and each other). Incubated within my 
 [professional services business](#work-jd-services), we spun it out in 2021.
 As CTO I'm responsible for the product roadmap, system architecture, and 
@@ -53,11 +56,17 @@ execution of the software delivery team.
 **2008 - 2021**
 
 I co-founded Janeiro Digital in 2009; a professional services business that
-specialized in building massively scalable, data intensive systems and
+specialized in building massively scalable, data-intensive systems and
 applications for large enterprises. Overseeing the technology and creative divisions, 
-I pioneered our RADD methodology for precise delivery of mission-critical 
+I pioneered our RADD methodology for the precise delivery of mission-critical 
 enterprise software. We grew it organically from day one through a successful exit in 2021.
 [[1]](https://www.inc.com/peter-cohan/i-was-blown-away-by-how-these-brothers-built-a-25.html)
+
+I led teams and architected massive systems across a range of industries,
+from financial trading systems managing billions of dollars to a monitoring
+and diagnostic system ensuring the safe generation and distribution of nuclear,
+wind, natural gas, and clean coal for the largest independent generator of
+energy in the United States.
 
 * 100% organic growth from day one to a successful exit in 2021
 * Listed as a ["Vendor to Watch"](https://www.businesswire.com/news/home/20170315005824/en/Janeiro-Digital-Named-a-Vendor-to-Watch-by-Gartner)
@@ -75,8 +84,8 @@ enterprise software. We grew it organically from day one through a successful ex
 
 **2018 - Present**
 
-Author, reviewer, and contributor of multiple open specifications in the [Solid Ecosystem](https://solidproject.org), 
-including the core [Solid Protocol](https://solidproject.org/TR/protocol), 
+Author, contributor, and editor of multiple open specifications in the [Solid Ecosystem](https://solidproject.org), 
+including the [Solid Protocol](https://solidproject.org/TR/protocol), 
 [Application Interoperability Standard](https://solid.github.io/data-interoperability-panel/specification/),
 [Authentication Protocol](https://solid.github.io/solid-oidc/), [Shape Trees](https://shapetrees.org/TR/specification/),
 and a range of [developer libraries](decentralized). Led the first draft and subsequent 
@@ -91,7 +100,7 @@ approval of the ecosystem [governance process](https://github.com/solid/process)
 
 **2013 - Present**
 
-Leveraging my experience building companies and technology to help some really 
+Leveraging my experience building companies and technology to help some  
 awesome young startups navigate the (sometimes) choppy waters. Have been lucky to
 mentor some great companies like [Codeship](https://www.cloudbees.com/products/codeship), 
 [SynAck](https://www.synack.com/), and others.
@@ -105,13 +114,18 @@ mentor some great companies like [Codeship](https://www.cloudbees.com/products/c
 
 **2002 - 2007**
 
-Designed and built a next generation compromise detection system using passive 
+Designed and built a next-generation compromise detection system using passive 
 network analysis and advanced data classification algorithms to identify 
 hacked internal networks without the need for specific attack signatures. [[1]](https://www.baltimoresun.com/news/bs-xpm-2004-03-04-0403040090-story.html)
 [[2]](https://www.eweek.com/security/security-start-up-seeks-to-spot-solve-compromises/)
 
 - Invented and built one of the first systems to detect sophisticated covert
 channels over a network
+- I led our R&D group, which included PhDs, cryptographers, astrophysicists, and
+  reformed hackers, to come up with novel ways to detect covert channels
+  in encrypted and unencrypted communication streams.
+- Modified hardware and operating systems (e.g. modifications to Linux Kernel)
+  to optimize high-speed processing of network data.
 - Customers included [Dupont](https://www.dupont.com/), [Reebok](https://reebok.com), 
   [Avid](https://avid.com), and [Bank of America](https://bankofamerica.com).  
 
@@ -124,7 +138,7 @@ channels over a network
 
 **1998 - 2001**
 
-My first job in tech, which I started while in high-school as a customer support
+My first job in tech, which I started while in high school as a customer support
 technician. Ultimately became responsible for managing, securing, and monitoring 
 the service provider network. I used and expanded on a range of
 open-source tools available at the time. I was able to identify some key problems 
