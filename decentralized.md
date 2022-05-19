@@ -94,6 +94,5 @@ decentralized applications in the Solid ecosystem.
 Working in close [collaboration with RSA Labs](https://www.janeirodigital.com/blog/new-partnership-brings-enterprise-security-to-the-decentralized-web/),
 we've applied [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) to
 solve real-world problems in the decentralized ecosystem, and helped to establish
-[RSA Mercury](https://mercury.rsalabs.com/), a suite of cloud-hosted services
+RSA Mercury un [RSA Labs](https://www.rsa.com/), a suite of cloud-hosted services
 to enable companies to easily use verifiable credentials.
-
