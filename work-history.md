@@ -21,12 +21,25 @@ solutions that move the needle for a business, industry, or community.
    
 ----
 
+![logo](assets/images/meralonne.png)
+
+### CTO / Founder @ Meralonne Technologies
+{: #work-meralonne}
+
+**2021 - Present**
+
+Working with emerging organizations on new ideas to solve real-world problems 
+using Web3 technologies. Providing strategy and hands-on support from 
+conception to build and ongoing operation, including; product and ecosystem 
+strategy, protocol design, tokenomics (as needed), technical architecture,
+whitepapers, governance, scalability, implementation, and operating models.
+
+----
+
 ![logo](assets/images/jd.png)
 
 ### CTO / Co-Founder @ Janeiro Digital
 {: #work-jd}
-
-
 
 #### Decentralized Software
 {: #work-jd-decentralized}
