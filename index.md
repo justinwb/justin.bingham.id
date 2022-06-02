@@ -11,34 +11,40 @@ companies](work-history), while architecting and building some interesting tech
 along the way. I've had a bit of success,
 a bit of luck, and a lot of fun with a bunch of good people.
 
-For the last several years I've focused on 
-applying decentralized patterns and protocols
-to real-world problems, with a distinct focus on secure, consent-based 
-interoperability between applications in a decentralized Web3 ecosystem.
-I [co-founded a startup](work-history#work-jd-decentralized) that's built technology to 
-connect the centralized and decentralized worlds.
-I've [authored and contributed to](decentralized) 
-a number of open standards in the space, including a role
+I started my career right out of high school with a [focus on network security](work-history#work-intrusic), 
+subsequently inventing one of the first systems to detect sophisticated covert 
+channels over a network. 
+
+I co-founded a [professional-services firm](work-history#work-jd-services) 
+focused on delivering mission critical
+software that grew organically for over a decade up to a successful exit.
+I grew and managed teams across the world, building solutions across a range 
+of technology stacks and industry verticals, and led the creation of a software 
+framework licensed by our customers to rapidly create scalable 
+applications.
+
+I've spent time applying [decentralized](decentralized) patterns and protocols
+to real-world problems, and maintain a role
 as [co-editor](https://github.com/solid/process/blob/main/editors.md) of the 
 [Solid Project](https://solidproject.org) with the 
 inventor of the Web, [Sir Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/).
-
-
-[My team](work-history#work-jd-decentralized) and I designed and built one of the
-[first commercial systems](work-history#work-jd-decentralized) to integrate enterprise infrastructure 
+I created one of the [first commercial systems](work-history#work-jd-decentralized) to 
+integrate enterprise infrastructure
 with decentralized data, counting the UK [National Health Service](https://nhs.uk)
-amongst our first customers, and visionary organizations like 
-[RSA Labs](https://www.janeirodigital.com/blog/new-partnership-brings-enterprise-security-to-the-decentralized-web/) 
-amongst our partners. Our work was recently cited in 
+as an early customer, while collaborating with visionary organizations like
+[RSA Labs](https://www.janeirodigital.com/blog/new-partnership-brings-enterprise-security-to-the-decentralized-web/).
+This work was recently cited in 
 [Data Saves Lives](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft#case-study-personal-data-stores),
 a policy paper led by the UK Minister of Health on the essential role of data in 
 the future of the UK's health strategy.
 
-I've given talks on decentralization and digital sovereignity across the world; 
+I've given talks on myriad subjects across the world; from scalable application 
+architecture and network security to decentralization and digital identity; 
 including @ [SXSW](https://schedule.sxsw.com/2019/speakers/2011886), 
 MIT [CSAIL](https://www.csail.mit.edu/), the 
 Fast Company [Innovation Summit](https://events.fastcompany.com/innovationfestival19/speakers), 
 Harvard [Berkman Klein Center for Internet and Society](https://cyber.harvard.edu/), 
+BU [Questrom School of Business](https://www.bu.edu/questrom/),
 the [RSA Security Conference](https://www.businesswire.com/news/home/20210512005319/en/Identity-Experts-to-Reveal-How-Organizations-Can-Thrive-in-the-Digital-World-at-RSA-Conference), 
 and the MIT [Media Lab](https://www.media.mit.edu/). 
 

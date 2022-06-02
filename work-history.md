@@ -5,35 +5,12 @@ is_work: true
 
 ## Work History
 
-I started my career right out of high school with a [focus on network security](#work-intrusic), 
-subsequently inventing one of the first systems to detect sophisticated covert channels over a network. 
-After that, I co-founded a [professional-services firm](#work-jd) focused on
-delivering mission-critical enterprise software, which grew
-organically for over a decade up to a successful exit. We subsequently spun out 
-a [decentralized software startup](#work-jd-decentralized) (albeit under
-the same brand) that we'd incubated since 2018.
-
 Wearing all kinds of hats over the years has given me a diverse skill set 
 and a whole lot of perspective. I've learned from
 enough of my failures to appreciate my successes, and that my best skill
 is being able to work backward from real-world problems to
 solutions that move the needle for a business, industry, or community.
    
-----
-
-![logo](assets/images/meralonne.png)
-
-### CTO / Founder @ Meralonne Technologies
-{: #work-meralonne}
-
-**2021 - Present**
-
-Working with emerging organizations on new ideas to solve real-world problems 
-using Web3 technologies. Providing strategy and hands-on support from 
-conception to build and ongoing operation, including; product and ecosystem 
-strategy, protocol design, tokenomics (as needed), technical architecture,
-whitepapers, governance, scalability, implementation, and operating models.
-
 ----
 
 ![logo](assets/images/jd.png)
@@ -82,6 +59,9 @@ wind, natural gas, and clean coal for the largest independent generator of
 energy in the United States.
 
 * 100% organic growth from day one to a successful exit in 2021
+* Established a licensed framework of reusable software backend, frontend, and 
+  infrastructure components that were utilized across our highest profile customer 
+  engagements.
 * Listed as a ["Vendor to Watch"](https://www.businesswire.com/news/home/20170315005824/en/Janeiro-Digital-Named-a-Vendor-to-Watch-by-Gartner)
   by Gartner, and a [Gartner Cool Vendor](https://www.businesswire.com/news/home/20170518005703/en/Janeiro-Digital-Named-a-Business-and-IT-Services-Cool-Vendor-by-Gartner)
 * Customers included [Amazon](https://amazon.com), [Caterpillar](https://www.caterpillar.com/), 
