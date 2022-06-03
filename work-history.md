@@ -9,7 +9,8 @@ Wearing all kinds of hats over the years has given me a diverse skill set
 and a whole lot of perspective. I've learned from
 enough of my failures to appreciate my successes, and that my best skill
 is being able to work backward from real-world problems to
-solutions that move the needle for a business, industry, or community.
+solutions that move the needle for a business, industry, or community,
+and creating collaborative, high-performing teams to realize them.
    
 ----
 
@@ -29,8 +30,9 @@ connect decentralized and centralized ecosystems, I conceived and architected
 that seamlessly integrates decentralized 
 ecosystems with the rest of the world (and each other). Incubated within my 
 [professional services business](#work-jd-services), we spun it out in 2021.
-As CTO I'm responsible for the product roadmap, system architecture, and 
-execution of the software delivery team.
+As CTO I'm responsible for composing and growing the entire technology
+organization, managing the product roadmap, and providing full architectural 
+oversight of the product portfolio.
 
 - [XFORM](https://www.janeirodigital.com/xform/) is one of the 
   first commercial systems to integrate enterprise applications and systems with 
@@ -47,25 +49,26 @@ execution of the software delivery team.
 
 I co-founded Janeiro Digital in 2009; a professional services business that
 specialized in building massively scalable, data-intensive systems and
-applications for large enterprises. Overseeing the technology and creative divisions, 
-I pioneered our RADD methodology for the precise delivery of mission-critical 
+applications. Overseeing the global technology team, 
+I built and managed a high-performing organization with offices 
+in the US and across the world, and pioneered our RADD methodology for the precise delivery of mission-critical 
 enterprise software. We grew it organically from day one through a successful exit in 2021.
 [[1]](https://www.inc.com/peter-cohan/i-was-blown-away-by-how-these-brothers-built-a-25.html)
 
-I led teams and architected massive systems across a range of industries,
+We delivered massive products across a range of industries,
 from financial trading systems managing billions of dollars to a monitoring
 and diagnostic system ensuring the safe generation and distribution of nuclear,
 wind, natural gas, and clean coal for the largest independent generator of
 energy in the United States.
 
 * 100% organic growth from day one to a successful exit in 2021
-* Established a licensed framework of reusable software backend, frontend, and 
-  infrastructure components that were utilized across our highest profile customer 
-  engagements.
+* Built and grew teams in US, Central America, South America, and Europe
+* Established a commercial framework of reusable software components that was 
+  utilized across our customer engagements.
 * Listed as a ["Vendor to Watch"](https://www.businesswire.com/news/home/20170315005824/en/Janeiro-Digital-Named-a-Vendor-to-Watch-by-Gartner)
   by Gartner, and a [Gartner Cool Vendor](https://www.businesswire.com/news/home/20170518005703/en/Janeiro-Digital-Named-a-Business-and-IT-Services-Cool-Vendor-by-Gartner)
 * Customers included [Amazon](https://amazon.com), [Caterpillar](https://www.caterpillar.com/), 
-  [IBM](https://ibm.com), [Wayfair](https://wayfair.com), [UTC](https://www.rtx.com/), 
+  [IBM](https://ibm.com), [RA Capital](https://wayfair.com), [UTC](https://www.rtx.com/), 
   and [Vistra Energy](https://vistracorp.com/)
 
 ----
@@ -81,7 +84,7 @@ Author, contributor, and editor of multiple open specifications in the [Solid Ec
 including the [Solid Protocol](https://solidproject.org/TR/protocol), 
 [Application Interoperability Standard](https://solid.github.io/data-interoperability-panel/specification/),
 [Authentication Protocol](https://solid.github.io/solid-oidc/), [Shape Trees](https://shapetrees.org/TR/specification/),
-and a range of [developer libraries](decentralized). Led the first draft and subsequent 
+and a range of [developer libraries](decentralized). I led the first draft and subsequent 
 approval of the ecosystem [governance process](https://github.com/solid/process).
 
 ----
@@ -114,6 +117,8 @@ hacked internal networks without the need for specific attack signatures. [[1]](
 
 - Invented and built one of the first systems to detect sophisticated covert
 channels over a network
+- Built and managed entire technology organization, including software team,
+  quality assurance, and user experience teams. 
 - I led our R&D group, which included PhDs, cryptographers, astrophysicists, and
   reformed hackers, to come up with novel ways to detect covert channels
   in encrypted and unencrypted communication streams.

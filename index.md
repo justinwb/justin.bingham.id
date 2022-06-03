@@ -13,22 +13,25 @@ a bit of luck, and a lot of fun with a bunch of good people.
 
 I started my career right out of high school with a [focus on network security](work-history#work-intrusic), 
 subsequently inventing one of the first systems to detect sophisticated covert 
-channels over a network. 
+channels over a network, alongside a diverse software delivery team and next-level 
+R&D group that I built and led.
 
 I co-founded a [professional-services firm](work-history#work-jd-services) 
 focused on delivering mission critical
 software that grew organically for over a decade up to a successful exit.
-I grew and managed teams across the world, building solutions across a range 
-of technology stacks and industry verticals, and led the creation of a software 
-framework licensed by our customers to rapidly create scalable 
-applications.
+I grew and managed cross-functional teams across the world, building solutions 
+across a range of technology stacks and industry verticals, and stood up
+multiple international delivery centers to provide additional capacity.
+I also led the creation of a software framework licensed by our customers 
+to rapidly create scalable applications that was instrumental in our
+recognition as a [Gartner Cool Vendor](https://www.businesswire.com/news/home/20170518005703/en/Janeiro-Digital-Named-a-Business-and-IT-Services-Cool-Vendor-by-Gartner).
 
 I've spent time applying [decentralized](decentralized) patterns and protocols
 to real-world problems, and maintain a role
 as [co-editor](https://github.com/solid/process/blob/main/editors.md) of the 
 [Solid Project](https://solidproject.org) with the 
 inventor of the Web, [Sir Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/).
-I created one of the [first commercial systems](work-history#work-jd-decentralized) to 
+My team created one of the [first commercial systems](work-history#work-jd-decentralized) to 
 integrate enterprise infrastructure
 with decentralized data, counting the UK [National Health Service](https://nhs.uk)
 as an early customer, while collaborating with visionary organizations like
